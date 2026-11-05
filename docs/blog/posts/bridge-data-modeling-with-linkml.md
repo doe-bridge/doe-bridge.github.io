@@ -9,10 +9,10 @@ tags:
   - samples
   - schema
 authors:
-  - ber-data
+  - Sierra Moxon
 ---
 
-# How BRIDGE Models Data: LinkML, BERVO, and Schemas You Can Run
+# How BRIDGE Models Data: LinkML and Ontologies
 
 BRIDGE connects data from independently run BER resources: JGI, EMSL,
 ESS-DIVE, KBase, and NMDC. Each resource keeps its own database and its
