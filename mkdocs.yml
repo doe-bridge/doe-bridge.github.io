@@ -1,8 +1,8 @@
 site_name: BRIDGE
 site_description: Landing page for the BER Data GitHub organization
 site_url: https://doe-bridge.github.io/
-repo_url: https://github.com/ber-data
-repo_name: ber-data
+repo_url: https://github.com/doe-bridge
+repo_name: doe-bridge
 edit_uri: edit/main/docs/
 copyright: "© 2025 BER Data Lakehouse"
 
@@ -49,7 +49,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ber-data
+      link: https://github.com/doe-bridge
   generator: false
 
 extra_css:

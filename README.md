@@ -1,6 +1,6 @@
-# ber-data.github.io
+# doe-bridge.github.io
 
-Source for the [BER Data](https://github.com/ber-data) organization landing
+Source for the [BER Data](https://github.com/doe-bridge) organization landing
 page, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
 and published to GitHub Pages via GitHub Actions.
 

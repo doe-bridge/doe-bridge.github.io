@@ -41,12 +41,12 @@ query can return results spanning EMSL, ESS-DIVE, JGI, KBase, and NMDC.
 
 <div class="grid cards lakehouses" markdown>
 
--   [![BERtron schema](assets/images/schema.png)](https://ber-data.github.io/bertron-schema/)
+-   [![BERtron schema](assets/images/schema.png)](https://doe-bridge.github.io/bertron-schema/)
 
     __BERtron schema__
 
-    [:material-book-open-variant: Docs](https://ber-data.github.io/bertron-schema/){ .card-btn }
-    [:material-github: Code](https://github.com/ber-data/bertron-schema){ .card-btn }
+    [:material-book-open-variant: Docs](https://doe-bridge.github.io/bertron-schema/){ .card-btn }
+    [:material-github: Code](https://github.com/doe-bridge/bertron-schema){ .card-btn }
     {: .card-links }
 
 </div>
