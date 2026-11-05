@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 40 352 352" width="512" height="512">
+  <!-- Deep teal circle -->
+  <circle cx="216" cy="216" r="176" fill="#1F5F6F"/>
+  <!-- Suspension bridge (white) -->
+  <g fill="#FFFFFF" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Deck -->
+    <rect x="96" y="252" width="240" height="10"/>
+    <!-- Left tower -->
+    <rect x="130" y="140" width="10" height="120"/>
+    <!-- Right tower -->
+    <rect x="292" y="140" width="10" height="120"/>
+    <!-- Main cables (suspension curves) -->
+    <path d="M96 180 Q135 130 170 180 Q216 250 262 180 Q297 130 336 180"
+          fill="none" stroke="#FFFFFF" stroke-width="6"/>
+    <!-- Vertical suspender cables -->
+    <g stroke="#FFFFFF" stroke-width="3">
+      <line x1="108" y1="196" x2="108" y2="252"/>
+      <line x1="120" y1="186" x2="120" y2="252"/>
+      <line x1="150" y1="180" x2="150" y2="252"/>
+      <line x1="162" y1="186" x2="162" y2="252"/>
+      <line x1="180" y1="200" x2="180" y2="252"/>
+      <line x1="198" y1="218" x2="198" y2="252"/>
+      <line x1="216" y1="228" x2="216" y2="252"/>
+      <line x1="234" y1="218" x2="234" y2="252"/>
+      <line x1="252" y1="200" x2="252" y2="252"/>
+      <line x1="270" y1="186" x2="270" y2="252"/>
+      <line x1="282" y1="180" x2="282" y2="252"/>
+      <line x1="312" y1="186" x2="312" y2="252"/>
+      <line x1="324" y1="196" x2="324" y2="252"/>
+    </g>
+  </g>
+</svg>
