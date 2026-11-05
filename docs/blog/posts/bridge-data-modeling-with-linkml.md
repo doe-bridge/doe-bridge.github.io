@@ -159,5 +159,5 @@ with any of these steps:
   version control.
 - **Standards conversations.** Schema design happens in public issues and
   pull requests on the
-  [BRIDGE GitHub organization](https://github.com/ber-data). Anyone
+  [BRIDGE GitHub organization](https://github.com/doe-bridge). Anyone
   working on the same modeling questions is welcome to join them.

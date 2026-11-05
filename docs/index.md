@@ -125,9 +125,9 @@ data exists and where it resides.
 
     [__Schemas__](schemas.md)
 
--   [![Registry](assets/images/registry.png)](https://github.com/ber-data)
+-   [![Registry](assets/images/registry.png)](https://github.com/doe-bridge)
 
-    [__Registry__](https://github.com/ber-data)
+    [__Registry__](https://github.com/doe-bridge)
 
 </div>
 
@@ -293,7 +293,7 @@ global search resource and data lakehouse.
 
 !!! note "Join us"
     Contributors are welcome. Open an issue or PR on any of our
-    [repositories](https://github.com/ber-data).
+    [repositories](https://github.com/doe-bridge).
 
 </section>
 

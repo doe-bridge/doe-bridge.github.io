@@ -6,7 +6,7 @@ tags:
   - site
   - bridge
 authors:
-  - ber-data
+  - doe-bridge
 ---
 
 # Introducing BRIDGE
@@ -33,4 +33,4 @@ blog will carry release notes, design decisions, and community-call
 summaries as the system matures.
 
 Contributions are welcome via the BRIDGE
-[GitHub organization](https://github.com/ber-data).
+[GitHub organization](https://github.com/doe-bridge).

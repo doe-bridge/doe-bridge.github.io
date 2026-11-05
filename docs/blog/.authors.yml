@@ -1,9 +1,9 @@
 authors:
-  ber-data:
+  doe-bridge:
     name: BRIDGE
     description: The BRIDGE data community
     avatar: https://doe-bridge.github.io/assets/images/bridge-logo.png
-    url: https://github.com/ber-data
+    url: https://github.com/doe-bridge
   sierra-moxon:
     name: Sierra Moxon
     description: BRIDGE data modeling
