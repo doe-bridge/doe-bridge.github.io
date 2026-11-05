@@ -27,14 +27,12 @@ schema modules you can read and test today.
 
 ## Four questions
 
-Connecting independently operated facilities raises the same four
-questions every time:
+Connecting independently operated facilities raises some questions:
 
 1. What is the data model for experiment results, and who owns the schema?
 2. How does data get published, and how can another system ingest or
    mirror it?
 3. How are samples and materials tracked as they move through workflows?
-4. Where do standards decisions get made, and how does a new partner join?
 
 The sections below answer each one for BRIDGE.
 
@@ -46,11 +44,10 @@ things:
 
 - **One source, many outputs.** A LinkML schema compiles to JSON Schema,
   SQL table definitions, Python classes, RDF/OWL, and browsable
-  documentation. Each partner uses the form their software needs, and all
-  forms stay in sync because they come from the same file.
+  documentation. 
 - **Modules.** The
   [BRIDGE central schema](https://github.com/doe-bridge/bridge-central-schema)
-  is a small core that imports focused modules: measurements, samples and
+  is a small core that imports focused modules: measurements, samples, and
   processing, shared identifiers. Each partner resource also keeps its own
   full schema (see the [Data Modeling](../../schemas.md) page) and maps it
   to the central one.
@@ -156,13 +153,13 @@ with any of these steps:
   check the result, so a crosswalk can be submitted and reviewed as a
   pull request.
 - **Schema export.** Adopting LinkML is optional. Any machine-readable
-  schema — JSON Schema, SQL, OWL — is enough to build a crosswalk.
-- **SSSOM mappings.** Property-level correspondences between your
+  schema — JSON Schema, SQL, OWL — is enough to build a crosswalk. But we have found
+  LinkML to be a superior schema metadata, mapping, and computation tool and using it means
+  easier interoperability.
+- **SSSOM mappings.** Optional property-level correspondences between your
   vocabulary and BERVO or BRIDGE terms, maintained as TSV files in
   version control.
 - **Standards conversations.** Schema design happens in public issues and
   pull requests on the
   [BRIDGE GitHub organization](https://github.com/ber-data). Anyone
   working on the same modeling questions is welcome to join them.
-
-Every artifact in this post is public, forkable, and testable today.
