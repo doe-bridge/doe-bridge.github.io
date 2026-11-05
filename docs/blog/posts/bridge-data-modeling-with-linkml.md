@@ -25,9 +25,7 @@ schema modules you can read and test today.
 
 <!-- more -->
 
-## Four questions
-
-Connecting independently operated facilities raises some questions:
+## Connecting independently operated facilities raises some questions:
 
 1. What is the data model for experiment results, and who owns the schema?
 2. How does data get published, and how can another system ingest or
@@ -36,13 +34,13 @@ Connecting independently operated facilities raises some questions:
 
 The sections below answer each one for BRIDGE.
 
-## The schema: LinkML
+## The schema language: LinkML
 
 BRIDGE writes its schemas in [LinkML](https://linkml.io), a schema
 language whose source files are plain YAML. That choice gives us four
 things:
 
-- **One source, many outputs.** A LinkML schema compiles to JSON Schema,
+- **One source of truth, many formats.** A LinkML schema compiles to JSON Schema,
   SQL table definitions, Python classes, RDF/OWL, and browsable
   documentation. 
 - **Modules.** The
@@ -51,7 +49,7 @@ things:
   processing, shared identifiers. Each partner resource also keeps its own
   full schema (see the [Data Modeling](../../schemas.md) page) and maps it
   to the central one.
-- **Clear ownership.** The schema lives in a public GitHub repository.
+- **Transparent development.** The schema lives in a public GitHub repository.
   Every change is a pull request reviewed by people from the partner
   facilities, and every release is versioned. "Who owns the schema" has a
   concrete answer: the repository and its review process.
@@ -59,7 +57,7 @@ things:
   counter-example records that must fail, all checked in CI. A schema
   change that breaks real data fails before it merges.
 
-## Naming properties: BERVO and mappings
+## Naming properties: One example: BERVO and mappings
 
 Two facilities can store the same property under different names. GOLD
 records an organism's pressure tolerance, EMSL MONet records soil
