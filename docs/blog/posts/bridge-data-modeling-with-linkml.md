@@ -9,7 +9,7 @@ tags:
   - samples
   - schema
 authors:
-  - Sierra Moxon
+  - sierra-moxon
 ---
 
 # How BRIDGE Models Data: LinkML and Ontologies
