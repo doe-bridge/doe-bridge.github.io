@@ -9,15 +9,15 @@ authors:
   - doe-bridge
 ---
 
-# Introducing BRIDGE
+# Introducing DOE-BRIDGE
 
-BRIDGE is a collaborative effort across the U.S. Department of Energy's
+DOE-BRIDGE is a collaborative effort across the U.S. Department of Energy's
 Biological and Environmental Research (BER) community to connect the data,
 schemas, and software produced by its major resources. This site is the entry point into that work.
 
 <!-- more -->
 
-BRIDGE seeks to enable scientific researchers to find and query across BER resources
+DOE-BRIDGE seeks to enable scientific researchers to find and query across BER resources
 to gain insight and make discoveries using the broad variety of data generate by partner
 organizations by providing several tools:
 
@@ -32,5 +32,5 @@ schema and its repository, and the team driving the project forward. The
 blog will carry release notes, design decisions, and community-call
 summaries as the system matures.
 
-Contributions are welcome via the BRIDGE
+Contributions are welcome via the DOE-BRIDGE
 [GitHub organization](https://github.com/doe-bridge).

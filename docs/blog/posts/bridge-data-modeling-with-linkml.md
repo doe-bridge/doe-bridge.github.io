@@ -12,11 +12,11 @@ authors:
   - sierra-moxon
 ---
 
-# How BRIDGE Models Data: LinkML and Ontologies
+# How DOE-BRIDGE Models Data: LinkML and Ontologies
 
-BRIDGE connects data from independently run BER resources: JGI, EMSL,
+DOE-BRIDGE connects data from independently run BER resources: JGI, EMSL,
 ESS-DIVE, KBase, and NMDC. Each resource keeps its own database and its
-own formats. BRIDGE adds a shared data model on top, so a query can span
+own formats. DOE-BRIDGE adds a shared data model on top, so a query can span
 all of them.
 
 This post explains how that data model is built: the schema language
@@ -32,11 +32,11 @@ schema modules you can read and test today.
    mirror it?
 3. How are samples and materials tracked as they move through workflows?
 
-The sections below answer each one for BRIDGE.
+The sections below answer each one for DOE-BRIDGE.
 
 ## The schema language: LinkML
 
-BRIDGE writes its schemas in [LinkML](https://linkml.io), a schema
+DOE-BRIDGE writes its schemas in [LinkML](https://linkml.io), a schema
 language whose source files are plain YAML. That choice gives us four
 things:
 
@@ -44,7 +44,7 @@ things:
   SQL table definitions, Python classes, RDF/OWL, and browsable
   documentation. 
 - **Modules.** The
-  [BRIDGE central schema](https://github.com/doe-bridge/bridge-central-schema)
+  [DOE-BRIDGE central schema](https://github.com/doe-bridge/bridge-central-schema)
   is a small core that imports focused modules: measurements, samples, and
   processing, shared identifiers. Each partner resource also keeps its own
   full schema (see the [Data Modeling](../../schemas.md) page) and maps it
@@ -64,12 +64,12 @@ records an organism's pressure tolerance, EMSL MONet records soil
 phosphate, BASIN-3D brokers river discharge. A federated query needs to
 know when two columns describe the same property.
 
-Every BRIDGE measurement names its property with one of three options,
+Every DOE-BRIDGE measurement names its property with one of three options,
 tried in order:
 
 1. a term from [BERVO](https://github.com/bioepic-data/bervo), the
    Biological and Environmental Research Variable Ontology;
-2. a BRIDGE-issued property identifier, used when BERVO has no term for
+2. a DOE-BRIDGE-issued property identifier, used when BERVO has no term for
    the property yet;
 3. a free-text label, so a record with an unrecognized property is still
    stored.
@@ -141,13 +141,13 @@ same structure describes samples moving through automated and autonomous
 lab workflows, and every measurement points at the sample it describes
 through `feature_of_interest`.
 
-## Connecting to BRIDGE
+## Connecting to DOE-BRIDGE
 
 A facility or network that wants to interoperate with BER data can start
 with any of these steps:
 
 - **A pilot crosswalk.** Map a sample of your measurement or sample
-  records to the BRIDGE central schema. The schema's example-based tests
+  records to the DOE-BRIDGE central schema. The schema's example-based tests
   check the result, so a crosswalk can be submitted and reviewed as a
   pull request.
 - **Schema export.** Adopting LinkML is optional. Any machine-readable
@@ -155,9 +155,9 @@ with any of these steps:
   LinkML to be a superior schema metadata, mapping, and computation tool and using it means
   easier interoperability.
 - **SSSOM mappings.** Optional property-level correspondences between your
-  vocabulary and BERVO or BRIDGE terms, maintained as TSV files in
+  vocabulary and BERVO or DOE-BRIDGE terms, maintained as TSV files in
   version control.
 - **Standards conversations.** Schema design happens in public issues and
   pull requests on the
-  [BRIDGE GitHub organization](https://github.com/doe-bridge). Anyone
+  [DOE-BRIDGE GitHub organization](https://github.com/doe-bridge). Anyone
   working on the same modeling questions is welcome to join them.

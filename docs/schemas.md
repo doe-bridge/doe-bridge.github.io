@@ -23,7 +23,7 @@ provenance.
 
 Each BER resource has historically managed its metadata independently, with
 its own models and tools. The schemas below are the LinkML-based data models
-that BRIDGE partners are aligning to enable cross-lakehouse discovery,
+that DOE-BRIDGE partners are aligning to enable cross-lakehouse discovery,
 shared ETL tooling, and AI-assisted mapping between datasets. Every schema
 links back to its canonical site and repository for documentation, source,
 and issues.

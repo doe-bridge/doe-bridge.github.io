@@ -7,7 +7,7 @@ hide:
 
 <div class="hero" markdown>
 
-# BRIDGE: A Scientific Data Ecosystem
+# DOE-BRIDGE: A Scientific Data Ecosystem
 
 <p class="hero-tagline">
 Open data, software, and schemas for the U.S. Department of Energy's
@@ -111,11 +111,11 @@ formats and community standards (GO, ENVO, GOLD, ChEBI, MIxS, and others)
 exist, but every resource has historically managed its metadata
 independently with its own models and tools.
 
-BRIDGE is assembling a Data Stewards committee with representatives from
+DOE-BRIDGE is assembling a Data Stewards committee with representatives from
 each partner organization. The Data Stewards create and maintain LinkML
 models for every data source registered in their respective lakehouses,
 building on the foundation of existing schemas. Each lakehouse maintains a
-data directory describing its holdings, and BRIDGE operates a central
+data directory describing its holdings, and DOE-BRIDGE operates a central
 registry that indexes across lakehouses so scientists can discover what
 data exists and where it resides.
 
@@ -205,7 +205,7 @@ global search resource and data lakehouse.
 
 -   __Valerie Skye__
 
-    JGI, BRIDGE
+    JGI, DOE-BRIDGE
 
 -   ![Kjiersten Fagnan](assets/images/staff/fagnan.jpg)
 
@@ -215,7 +215,7 @@ global search resource and data lakehouse.
 
 -   __Danielle Christianson__
 
-    ESS-DIVE, BRIDGE
+    ESS-DIVE, DOE-BRIDGE
 
 -   ![Shreyas Cholia](assets/images/staff/cholia.png)
 
@@ -233,7 +233,7 @@ global search resource and data lakehouse.
 
     __Sierra Moxon__
 
-    NMDC, BRIDGE
+    NMDC, DOE-BRIDGE
 
 -   ![Makena Dettmann](assets/images/staff/dettmann.jpeg)
 
@@ -251,23 +251,23 @@ global search resource and data lakehouse.
 
     __Montana Smith__
 
-    EMSL, NMDC, BRIDGE
+    EMSL, NMDC, DOE-BRIDGE
 
 -   __Conrad Mearns__
 
-    EMSL, BRIDGE
+    EMSL, DOE-BRIDGE
 
 -   ![Ryan Ly](assets/images/staff/ly.png)
 
     __Ryan Ly__
 
-    JAMO, BRIDGE
+    JAMO, DOE-BRIDGE
 
 -   ![AJ Ireland](assets/images/staff/ireland.png)
 
     __AJ Ireland__
 
-    KBase, BRIDGE
+    KBase, DOE-BRIDGE
 
 -   ![Gazi Mahmud](assets/images/staff/mahmud.jpg)
 
@@ -283,11 +283,11 @@ global search resource and data lakehouse.
 
 -   __Georg Rath__
 
-    JGI, BRIDGE
+    JGI, DOE-BRIDGE
 
 -   __Deanna Beatty__
 
-    JGI, BRIDGE
+    JGI, DOE-BRIDGE
 
 </div>
 
