@@ -10,7 +10,7 @@ hide:
 
 <p class="hero-tagline">
 A glossary of acronyms, projects, and technologies referenced across the
-BRIDGE / BER Data Lakehouse ecosystem.
+DOE-BRIDGE / BER Data Lakehouse ecosystem.
 </p>
 
 </div>
@@ -19,18 +19,18 @@ BRIDGE / BER Data Lakehouse ecosystem.
 
 ## Programs & Initiatives
 
-### BRIDGE
+### DOE-BRIDGE
 
 **Biological and enviRonmental Infrastructure for Data manaGement and
 Exploration.** This is the high-level BER Lakehouse effort. Formerly referred
 to as **BERDL** (BER Data Lakehouse).
 
-- **BRIDGE DM** — Data Modeling Team
-- **BRIDGE PE** — Platform Engineering Team
-- **BRIDGE UR** — User Research & Engagement Team
+- **DOE-BRIDGE DM** — Data Modeling Team
+- **DOE-BRIDGE PE** — Platform Engineering Team
+- **DOE-BRIDGE UR** — User Research & Engagement Team
 
 > **Note:** BERDL has now been split into **K-BERDL** (KBase BER Data
-> Lakehouse) and **J-BERDL** (JGI Data Lakehouse). BRIDGE is the higher-level
+> Lakehouse) and **J-BERDL** (JGI Data Lakehouse). DOE-BRIDGE is the higher-level
 > effort to link them.
 
 ### HPDF
@@ -84,7 +84,7 @@ Team are below. List was obtained from the kickoff meeting agenda.
 - *A Generative Pretrained Transformer for Genomic Photosynthesis to Support
   Abundant Bioenergy Production*
 - **BERIL**
-- **BRIDGE**
+- **DOE-BRIDGE**
 - **SLAC** — AI-Driven Multimodal Imaging for Predicting Stress Response in
   Plants: Linking Genotype to Phenotype across Scales
 - **LAMBDA**
@@ -97,7 +97,7 @@ of OPAL comprises three projects that are intended to work together:
 1. Microbial Genome-to-Function Mapping (Nathan Hillson, Chris Petzold)
 2. Data Architectures and Agentic AI (aka **BERIL**; Paramvir Dahal, Chris Mungall)
 3. Standardized federated data infrastructure, integration
-   models (aka **BRIDGE Data Modeling Team**; Kjiersten Fagnan, Valerie Skye, Montana Smith, Sierra Moxon, AJ Ireland, Danielle Christianson, Ryan Ly)
+   models (aka **DOE-BRIDGE Data Modeling Team**; Kjiersten Fagnan, Valerie Skye, Montana Smith, Sierra Moxon, AJ Ireland, Danielle Christianson, Ryan Ly)
 
 ### FAMOUS
 
