@@ -6,6 +6,10 @@ repo_name: ber-data
 edit_uri: edit/main/docs/
 copyright: "© 2025 BER Data Lakehouse"
 
+not_in_nav: |
+  projects.md
+  assets/images/README.md
+
 theme:
   name: material
   language: en
@@ -81,13 +85,13 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
       enable_git_follow: false
+      strict: false
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
   - blog:
       blog_dir: blog
-      blog_name: Crossings
       post_date_format: medium
       post_url_format: "{date}/{slug}"
       archive: true
